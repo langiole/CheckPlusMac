@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBDE5F481D3036AD002FF6AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE5F471D3036AD002FF6AF /* AppDelegate.swift */; };
+		FBDE5F4A1D3036AD002FF6AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE5F491D3036AD002FF6AF /* ViewController.swift */; };
+		FBDE5F4C1D3036AD002FF6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDE5F4B1D3036AD002FF6AF /* Assets.xcassets */; };
+		FBDE5F4F1D3036AD002FF6AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDE5F4D1D3036AD002FF6AF /* Main.storyboard */; };
+		FBDE5F5A1D3036AD002FF6AF /* CheckPlusMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE5F591D3036AD002FF6AF /* CheckPlusMacTests.swift */; };
+		FBDE5F651D3036AD002FF6AF /* CheckPlusMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDE5F641D3036AD002FF6AF /* CheckPlusMacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBDE5F561D3036AD002FF6AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBDE5F3C1D3036AD002FF6AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBDE5F431D3036AD002FF6AF;
+			remoteInfo = CheckPlusMac;
+		};
+		FBDE5F611D3036AD002FF6AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBDE5F3C1D3036AD002FF6AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBDE5F431D3036AD002FF6AF;
+			remoteInfo = CheckPlusMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBDE5F441D3036AD002FF6AF /* CheckPlusMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckPlusMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDE5F471D3036AD002FF6AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBDE5F491D3036AD002FF6AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBDE5F4B1D3036AD002FF6AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBDE5F4E1D3036AD002FF6AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBDE5F501D3036AD002FF6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDE5F551D3036AD002FF6AF /* CheckPlusMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckPlusMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDE5F591D3036AD002FF6AF /* CheckPlusMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPlusMacTests.swift; sourceTree = "<group>"; };
+		FBDE5F5B1D3036AD002FF6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDE5F601D3036AD002FF6AF /* CheckPlusMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckPlusMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDE5F641D3036AD002FF6AF /* CheckPlusMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPlusMacUITests.swift; sourceTree = "<group>"; };
+		FBDE5F661D3036AD002FF6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBDE5F411D3036AD002FF6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDE5F521D3036AD002FF6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDE5F5D1D3036AD002FF6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBDE5F3B1D3036AD002FF6AF = {
+			isa = PBXGroup;
+			children = (
+				FBDE5F461D3036AD002FF6AF /* CheckPlusMac */,
+				FBDE5F581D3036AD002FF6AF /* CheckPlusMacTests */,
+				FBDE5F631D3036AD002FF6AF /* CheckPlusMacUITests */,
+				FBDE5F451D3036AD002FF6AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDE5F451D3036AD002FF6AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE5F441D3036AD002FF6AF /* CheckPlusMac.app */,
+				FBDE5F551D3036AD002FF6AF /* CheckPlusMacTests.xctest */,
+				FBDE5F601D3036AD002FF6AF /* CheckPlusMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBDE5F461D3036AD002FF6AF /* CheckPlusMac */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE5F471D3036AD002FF6AF /* AppDelegate.swift */,
+				FBDE5F491D3036AD002FF6AF /* ViewController.swift */,
+				FBDE5F4B1D3036AD002FF6AF /* Assets.xcassets */,
+				FBDE5F4D1D3036AD002FF6AF /* Main.storyboard */,
+				FBDE5F501D3036AD002FF6AF /* Info.plist */,
+			);
+			path = CheckPlusMac;
+			sourceTree = "<group>";
+		};
+		FBDE5F581D3036AD002FF6AF /* CheckPlusMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE5F591D3036AD002FF6AF /* CheckPlusMacTests.swift */,
+				FBDE5F5B1D3036AD002FF6AF /* Info.plist */,
+			);
+			path = CheckPlusMacTests;
+			sourceTree = "<group>";
+		};
+		FBDE5F631D3036AD002FF6AF /* CheckPlusMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE5F641D3036AD002FF6AF /* CheckPlusMacUITests.swift */,
+				FBDE5F661D3036AD002FF6AF /* Info.plist */,
+			);
+			path = CheckPlusMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBDE5F431D3036AD002FF6AF /* CheckPlusMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDE5F691D3036AD002FF6AF /* Build configuration list for PBXNativeTarget "CheckPlusMac" */;
+			buildPhases = (
+				FBDE5F401D3036AD002FF6AF /* Sources */,
+				FBDE5F411D3036AD002FF6AF /* Frameworks */,
+				FBDE5F421D3036AD002FF6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckPlusMac;
+			productName = CheckPlusMac;
+			productReference = FBDE5F441D3036AD002FF6AF /* CheckPlusMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBDE5F541D3036AD002FF6AF /* CheckPlusMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDE5F6C1D3036AD002FF6AF /* Build configuration list for PBXNativeTarget "CheckPlusMacTests" */;
+			buildPhases = (
+				FBDE5F511D3036AD002FF6AF /* Sources */,
+				FBDE5F521D3036AD002FF6AF /* Frameworks */,
+				FBDE5F531D3036AD002FF6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBDE5F571D3036AD002FF6AF /* PBXTargetDependency */,
+			);
+			name = CheckPlusMacTests;
+			productName = CheckPlusMacTests;
+			productReference = FBDE5F551D3036AD002FF6AF /* CheckPlusMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBDE5F5F1D3036AD002FF6AF /* CheckPlusMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBDE5F6F1D3036AD002FF6AF /* Build configuration list for PBXNativeTarget "CheckPlusMacUITests" */;
+			buildPhases = (
+				FBDE5F5C1D3036AD002FF6AF /* Sources */,
+				FBDE5F5D1D3036AD002FF6AF /* Frameworks */,
+				FBDE5F5E1D3036AD002FF6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBDE5F621D3036AD002FF6AF /* PBXTargetDependency */,
+			);
+			name = CheckPlusMacUITests;
+			productName = CheckPlusMacUITests;
+			productReference = FBDE5F601D3036AD002FF6AF /* CheckPlusMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBDE5F3C1D3036AD002FF6AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lee Angioletti";
+				TargetAttributes = {
+					FBDE5F431D3036AD002FF6AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FBDE5F541D3036AD002FF6AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FBDE5F431D3036AD002FF6AF;
+					};
+					FBDE5F5F1D3036AD002FF6AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FBDE5F431D3036AD002FF6AF;
+					};
+				};
+			};
+			buildConfigurationList = FBDE5F3F1D3036AD002FF6AF /* Build configuration list for PBXProject "CheckPlusMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBDE5F3B1D3036AD002FF6AF;
+			productRefGroup = FBDE5F451D3036AD002FF6AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBDE5F431D3036AD002FF6AF /* CheckPlusMac */,
+				FBDE5F541D3036AD002FF6AF /* CheckPlusMacTests */,
+				FBDE5F5F1D3036AD002FF6AF /* CheckPlusMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBDE5F421D3036AD002FF6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDE5F4C1D3036AD002FF6AF /* Assets.xcassets in Resources */,
+				FBDE5F4F1D3036AD002FF6AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDE5F531D3036AD002FF6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDE5F5E1D3036AD002FF6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBDE5F401D3036AD002FF6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDE5F4A1D3036AD002FF6AF /* ViewController.swift in Sources */,
+				FBDE5F481D3036AD002FF6AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDE5F511D3036AD002FF6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDE5F5A1D3036AD002FF6AF /* CheckPlusMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBDE5F5C1D3036AD002FF6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBDE5F651D3036AD002FF6AF /* CheckPlusMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBDE5F571D3036AD002FF6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBDE5F431D3036AD002FF6AF /* CheckPlusMac */;
+			targetProxy = FBDE5F561D3036AD002FF6AF /* PBXContainerItemProxy */;
+		};
+		FBDE5F621D3036AD002FF6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBDE5F431D3036AD002FF6AF /* CheckPlusMac */;
+			targetProxy = FBDE5F611D3036AD002FF6AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBDE5F4D1D3036AD002FF6AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBDE5F4E1D3036AD002FF6AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBDE5F671D3036AD002FF6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBDE5F681D3036AD002FF6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FBDE5F6A1D3036AD002FF6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckPlusMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBDE5F6B1D3036AD002FF6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckPlusMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBDE5F6D1D3036AD002FF6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckPlusMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckPlusMac.app/Contents/MacOS/CheckPlusMac";
+			};
+			name = Debug;
+		};
+		FBDE5F6E1D3036AD002FF6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckPlusMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckPlusMac.app/Contents/MacOS/CheckPlusMac";
+			};
+			name = Release;
+		};
+		FBDE5F701D3036AD002FF6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckPlusMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckPlusMac;
+			};
+			name = Debug;
+		};
+		FBDE5F711D3036AD002FF6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CheckPlusMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Langio.CheckPlusMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckPlusMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBDE5F3F1D3036AD002FF6AF /* Build configuration list for PBXProject "CheckPlusMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDE5F671D3036AD002FF6AF /* Debug */,
+				FBDE5F681D3036AD002FF6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBDE5F691D3036AD002FF6AF /* Build configuration list for PBXNativeTarget "CheckPlusMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDE5F6A1D3036AD002FF6AF /* Debug */,
+				FBDE5F6B1D3036AD002FF6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBDE5F6C1D3036AD002FF6AF /* Build configuration list for PBXNativeTarget "CheckPlusMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDE5F6D1D3036AD002FF6AF /* Debug */,
+				FBDE5F6E1D3036AD002FF6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBDE5F6F1D3036AD002FF6AF /* Build configuration list for PBXNativeTarget "CheckPlusMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBDE5F701D3036AD002FF6AF /* Debug */,
+				FBDE5F711D3036AD002FF6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBDE5F3C1D3036AD002FF6AF /* Project object */;
+}
